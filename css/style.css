@@ -1,0 +1,67 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+html,
+body{
+  height: 100%;
+}
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex-grow: 1;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+button{
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+}
+input {
+  color: #fff; /* Цвет текста */
+  caret-color: #fff; /* Цвет курсора */
+}
+textarea{
+  resize: none;
+  color: #fff;
+  caret-color: #fff;
+}
+
+
+body{
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  color: #EEEEEE;
+  background-color: #222831;
+}
+
+/* Styles */
+.container{
+  max-width: 1290px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
