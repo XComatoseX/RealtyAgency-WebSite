@@ -125,7 +125,6 @@ body{
   transition: opacity 0.3s ease;
   position: absolute;
   bottom: 0;
-  left: calc(100%);
 }
 .nav__list-item{
   display: flex;
