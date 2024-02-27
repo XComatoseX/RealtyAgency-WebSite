@@ -37,15 +37,12 @@ ul{
 h1,h2,h3,h4,h5,h6, p{
   margin: 0;
 }
-input {
-  color: #fff; /* Цвет текста */
-  caret-color: #fff; /* Цвет курсора */
-}
-textarea{
+
+/* textarea{
   resize: none;
   color: #fff;
   caret-color: #fff;
-}
+} */
 
 
 body{
@@ -69,6 +66,9 @@ body{
 
 
 /* Header */
+.nav{
+  margin-bottom: 107px;
+}
 .nav__menu{
   display: flex;
   gap: 145px;
@@ -139,4 +139,74 @@ body{
 
 .nav__list-item:hover .nav__list-item--line{
   opacity: 1;
+}
+
+
+/* Hero */
+.hero__text{
+  font-style: normal;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+  max-width: 777px;
+  margin-bottom: 24px;
+}
+.hero__desc{
+  color: rgba(32, 50, 57, 0.55);
+  line-height: 30px;
+  max-width: 544px;
+  margin-bottom: 56px;
+}
+/* Hero -> fornm */
+.hero__form{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 675px;
+  margin-bottom: 56px;
+}
+.hero__form::after{
+  content: "";
+  background-image: url(../images/location-icon.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 20px;
+}
+.hero__form-input{
+  width: 100%;
+  max-width: 675px;
+  padding: 23px 154px 23px 56px;
+  position: relative;
+  border: none;
+  border-radius: 15px;
+}
+.hero__form-input::placeholder{
+  color: rgba(32, 50, 57, 0.55);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.hero__form-btn{
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  background: #203239;
+  color: #FFF;
+  padding: 13px 41px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 14px;
+  box-shadow: 0px 6px 8px 0px rgba(32, 50, 57, 0.25);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  line-height: normal;
+  right: 0;
 }
