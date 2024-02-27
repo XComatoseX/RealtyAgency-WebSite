@@ -6,10 +6,11 @@ const textEl = document.querySelectorAll(`.nav__list-item-link`)
 parentBlocks.forEach(function(parent) {
   parent.addEventListener('mouseover', function(event) {
     const tt = document.getElementById(event.target.id)
-    console.log(tt)
+    if(!tt) return
     console.log(tt.offsetWidth)
+    console.log((tt.offsetWidth - 20) / 2 + 'px')
     for (let i = 0; i < lineElement.length; i++) {
-      lineElement[i].style.left = '2px';
+      lineElement[i].style.left = (tt.offsetWidth - 20) / 2 + 'px';
     }
   });
 });
