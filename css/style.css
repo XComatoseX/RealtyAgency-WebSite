@@ -67,7 +67,7 @@ body{
 
 /* Header */
 .nav{
-  margin-bottom: 107px;
+  margin-bottom: 49px;
 }
 .nav__menu{
   display: flex;
@@ -149,6 +149,7 @@ body{
   font-weight: 600;
   line-height: 150%;
   max-width: 777px;
+  margin-top: 58px;
   margin-bottom: 24px;
 }
 .hero__desc{
@@ -209,4 +210,30 @@ body{
   border-radius: 10px;
   line-height: normal;
   right: 0;
+}
+
+/* Hero list */
+.hero__inner{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.hero__list{
+  display: flex;
+  gap: 72px;
+}
+.hero__list-item{
+  max-width: 143px;
+}
+.list__title{
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.list__title span{
+  color: #FF7527;
+  line-height: normal;
+}
+.list__title--text{
+  font-weight: 700;
+  font-size: 16px;
 }
