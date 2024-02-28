@@ -263,13 +263,41 @@ body{
   justify-content: space-between;
 }
 .buy-list__item{
+  position: relative;
   padding: 21px 20px 21px 34px;
 }
+
+.buy-list__mark{
+  position: absolute;
+  width: 8px;
+  height: 30px;
+  border-radius: 5px;
+  background: #FF7527;
+  top: 17px;
+  left: 0;
+}
+.buy-list__count{
+  position: absolute;
+  top: 20px;
+  right: 19px;
+  font-weight: 500;
+  color: #FF7527;
+}
+
 .buy-list__item:hover{
   border-radius: 10px;
   border: 1px solid #EEEDDE;
   padding: 20px 19px 20px 33px;
 }
+.buy-list__item:hover .buy-list__mark{
+  top: 16px;
+  left: -1px;
+}
+.buy-list__item:hover .buy-list__count{
+  top: 19px;
+  right: 18px;
+}
+
 .buy-list__block{
   max-width: 300px;
   min-height: 300px;
