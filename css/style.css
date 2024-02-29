@@ -470,6 +470,8 @@ body{
   border-radius: 10px;
   border: 1px solid #203239;
   position: relative;
+  cursor: pointer;
+  transition: all .3s;
 }
 .best-residence__contact-btn::before{
   content: "";
@@ -482,6 +484,9 @@ body{
   margin: 0;
   padding: 0;
 }
+.best-residence__contact-btn:hover{
+  border: 1px solid #FF7527;
+}
 
 .best-residence__check-more{
   color: #FFF;
@@ -492,4 +497,9 @@ body{
   padding: 13px 41px;
   border-radius: 10px;
   background: #203239;
+  cursor: pointer;
+  transition: all .3s;
+}
+.best-residence__check-more:hover{
+  background: #FF7527;
 }
