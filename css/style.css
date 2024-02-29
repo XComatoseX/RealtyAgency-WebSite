@@ -219,6 +219,10 @@ body{
   border-radius: 10px;
   line-height: normal;
   right: 0;
+  transition: all .3s;
+}
+.hero__form-btn:hover{
+  background-color: #FF7527;
 }
 
 /* Hero list */
@@ -250,8 +254,8 @@ body{
 /* Steps buy */
 .steps-buy{
   background: #FFF;
-  margin-bottom: 200px;
-  padding-bottom: 200px;
+  margin-bottom: 68px;
+  padding-bottom: 100px;
 }
 .steps-buy__title{
   max-width: 533px;
@@ -363,7 +367,7 @@ body{
 }
 
 
-/* test */
+/* Dropdown menu */
 .nav-list__dropdown {
   float: left;
   overflow: hidden;
@@ -393,14 +397,14 @@ body{
 }
 
 .nav-list__dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ddd; 
 }
 
 .nav-list__dropdown:hover .nav-list__dropdown-content {
   display: block;
 }
 
-.nav-list__dropdown::after{
+.nav-list__dropbtn::after{
   content: "";
   background-image: url(../images/arrow-menu.png);
   width: 24px;
@@ -408,6 +412,6 @@ body{
   background-size: cover;
   display: inline-block;
   position: absolute;
+  top: 2px;
 }
-
-/* test */
+/* End dropdown menu */
