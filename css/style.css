@@ -415,3 +415,81 @@ body{
   top: 2px;
 }
 /* End dropdown menu */
+
+
+/* Best Residence */
+.realtor-name{
+  font-weight: 500;
+  color: #FF7527;
+  max-width: 150px;
+  margin-bottom: 8px;
+}
+.best-residence__title{
+  max-width: 300px;
+  margin-bottom: 64px;
+}
+.best-residence__content-inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+.best-residence__images{
+  max-width: 525px;
+  position: relative;
+}
+
+.best-residence__image-first{
+  max-width: 330px;
+}
+.best-residence__image-second{
+  max-width: 358px;
+  position: absolute;
+  top: 60px;
+  left: 160px;
+}
+
+.best-residence__content-title{
+  max-width: 507px;
+  margin-bottom: 24px;
+}
+.best-residence__desc{
+  max-width: 570px;
+  margin-bottom: 48px;
+}
+.best-residence__btns{
+  margin-bottom: 300px;
+  display: flex;
+  gap: 48px;
+}
+.best-residence__contact-btn{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 41px 13px 77px;
+  border-radius: 10px;
+  border: 1px solid #203239;
+  position: relative;
+}
+.best-residence__contact-btn::before{
+  content: "";
+  background-image: url(../images/phone.svg);
+  width: 24px;
+  height: 24px;
+  left: 41px;
+  position: absolute;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.best-residence__check-more{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 13px 41px;
+  border-radius: 10px;
+  background: #203239;
+}
