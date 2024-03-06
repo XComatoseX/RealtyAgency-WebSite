@@ -556,11 +556,12 @@ body{
   display: block;
   width: 100%;
   max-width: 650px;
+  margin-bottom: 64px;
 }
 .contacts-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 0 48px;
 }
 
 .contacts__call{
@@ -581,26 +582,35 @@ body{
   border-radius: 10px;
   background-color: rgba(255, 117, 39, 0.80);
   max-height: 50px;
+  color: #EEEDDE;
+  transition: all .3s;
 }
 
 .contacts__email{
   display: grid;
-  grid-template-rows: 56px;
-  grid-template-columns: 48px 130px;
+  grid-template-columns: 48px;
   gap: 16px 15px;
   padding: 24px;
-  border-radius: 10px;
   border: 1px solid rgba(255, 117, 39, 0.50);
 }
 .email__link{
-  grid-column-start: span 2;
   display: flex;
+  grid-column-start: span 2;
   justify-content: center;
   align-items: center;
   padding: 13px 41px;
   border-radius: 10px;
   background-color: rgba(255, 117, 39, 0.80);
+  color: #EEEDDE;
   max-height: 50px;
+  margin-left: 32px;
+  max-width: 195px;
+  transition: all .3s;
+}
+
+.call__link:hover, .email__link:hover{
+  background: rgba(255, 117, 39, 0.20);
+  color: #FF7527;
 }
 
 
