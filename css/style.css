@@ -623,3 +623,32 @@ body{
   gap: 32px;
   margin-top: 50px;
 }
+
+/* footer */
+.footer{
+  background: #203239;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo{
+  font-family: "Roboto Condensed", sans-serif;
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  color: #EEEDDE;
+}
+.footer__social{
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+.footer__social-item{
+  max-height: 24px;
+}
